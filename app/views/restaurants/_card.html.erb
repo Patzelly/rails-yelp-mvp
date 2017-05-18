@@ -5,12 +5,12 @@
     <p><%= restaurant.address %></p>
   </div>
   <a class="card-link" href="#" ></a>
-<!--    <% unless restaurant.reviews.size == 0 %>
+   <% unless restaurant.reviews.size == 0 %>
           <p><%= restaurant.reviews.last.content %></p>
           <p><%= "*" * restaurant.reviews.last.rating %></p>
         <% end %>
   <%= link_to "show", restaurant_path(restaurant) %>
   <%= link_to "Edit", edit_restaurant_path(restaurant) %>
   <%= link_to "Add review", new_restaurant_review_path(restaurant) %>
-  <%= link_to "Destroy", restaurant_path(restaurant), method: :delete %> -->
+  <%= link_to "Destroy", restaurant_path(restaurant), method: :delete %>
 </div>
